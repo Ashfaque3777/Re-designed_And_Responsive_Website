@@ -1,0 +1,136 @@
+@media screen and (max-width: 450px) {
+  .ul1 {
+    display: none;
+  }
+
+  .img1 {
+    justify-content: start;
+    padding-left: 20px;
+  }
+
+  .img1 img {
+    width: 210px;
+  }
+
+  .heading {
+    width: 100vw;
+    height: 150px;
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .sec1 {
+    height: 720px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .img2 {
+    width: 100vw;
+    justify-content: center;
+  }
+
+  .img2 img {
+    width: 360px;
+  }
+
+  .para1 {
+    width: 100vw;
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .sec2 {
+    width: 100vw;
+    height: 665px;
+    flex-direction: column;
+  }
+
+  .head1 {
+    font-size: 28px;
+  }
+
+  .sec3 {
+    width: 100vw;
+    height: 770px;
+  }
+
+  .parent2 {
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .map {
+    width: 100vw;
+    height: 200px;
+  }
+
+  .map iframe {
+    height: 180px;
+  }
+
+  .sec4 {
+    width: 100vw;
+    height: 220px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 29px;
+  }
+
+  .sec5 {
+    width: 100vw;
+    margin: 0px;
+    padding: 15px;
+  }
+
+  .sec6 {
+    height: 1100px;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .sec6 div {
+    width: 100vw;
+    padding: 15px;
+  }
+
+  .ul2 {
+    align-items: start;
+  }
+
+  .div6 ul {
+    align-items: center;
+  }
+
+  .div7 h3,
+  ul {
+    display: flex;
+  }
+
+  footer {
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div1 {
+    width: 100vw;
+  }
+
+  .move {
+    position: static;
+    height: 3350px;
+  }
+
+  .movein {
+    position: static;
+  }
+
+  .notmove {
+    position: static;
+    width: 100vw;
+  }
+}

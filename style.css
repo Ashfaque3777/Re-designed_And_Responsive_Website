@@ -1,0 +1,333 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+}
+
+.img1 {
+  width: 515px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.ul1 {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 135px;
+  gap: 50px;
+  width: 100%;
+}
+
+.ul1 a {
+  text-decoration: none;
+  color: grey;
+}
+
+.ul1 a:hover,
+a:active {
+  color: black;
+}
+
+.sublist1 {
+  display: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sublist1 div {
+  padding: 5px 20px;
+}
+
+.sublist1 div:hover {
+  background-color: rgb(247, 245, 245);
+}
+
+.ul1 li:hover .sublist1 {
+  display: block;
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  top: 55px;
+  left: 560px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px black;
+  z-index: 1;
+}
+
+.sublist2 {
+  display: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sublist2 div {
+  padding: 5px 20px;
+}
+
+.sublist2 div:hover {
+  background-color: rgb(247, 245, 245);
+}
+
+.ul1 li:hover .sublist2 {
+  display: block;
+  border: 1px solid white;
+  background-color: white;
+  position: absolute;
+  top: 55px;
+  left: 700px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px black;
+  z-index: 1;
+}
+
+.heading {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+span {
+  color: rgb(236, 124, 48);
+}
+
+.sec1 {
+  display: flex;
+  height: 380px;
+  width: 100%;
+}
+
+.img2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 670px;
+}
+
+.para1 {
+  width: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 340px;
+}
+
+.parent1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.child1 {
+  display: flex;
+  padding: 20px;
+}
+
+.circle {
+  background-color: black;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+
+.content1 {
+  padding-left: 10px;
+}
+
+.sec3 {
+  height: 230px;
+}
+
+.parent2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content2 {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.button {
+  text-align: center;
+}
+
+button {
+  font-size: 10px;
+  padding: 10px 15px;
+  border: 2px solid rgb(236, 124, 48);
+  background-color: rgb(236, 124, 48);
+}
+
+button:hover {
+  color: white;
+}
+
+.map {
+  background-color: rgb(236, 124, 48);
+  height: 340px;
+}
+
+.sec4 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.sec5 {
+  margin: 40px 170px;
+}
+
+.sec5 h1 {
+  font-size: 40px;
+}
+
+.parent3 {
+  background-color: rgb(240, 240, 240);
+}
+
+summary {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 35px;
+}
+
+details p {
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.sec6 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 90px;
+  padding-right: 90px;
+  font-weight: bold;
+  margin-top: 60px;
+  height: 300px;
+}
+
+.sec6 h3 {
+  text-align: center;
+}
+
+.div3 {
+  width: 100px;
+}
+
+.div4 {
+  width: 140px;
+}
+
+.div5 {
+  width: 95px;
+}
+
+.div6 {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.div7 {
+  width: 170px;
+}
+
+.ul2 {
+  list-style: none;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ul2 li {
+  padding-top: 10px;
+}
+
+.ul2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.ul2 a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+footer {
+  background-color: black;
+  height: 80px;
+  color: white;
+  display: flex;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  width: 960px;
+}
+
+.div2 {
+  width: 100%;
+}
+
+.move {
+  position: relative;
+  height: 2502px;
+}
+
+.movein {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  background-color: white;
+}
+
+.notmove {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
